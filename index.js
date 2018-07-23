@@ -9,3 +9,7 @@ function destructivelyPrependKitten(name) {
   return kittens
 }
 
+function destructivelyPrependKitten(name) {
+  kittens.push(name)
+  return kittens
+}
